@@ -1,0 +1,86 @@
+body {
+  font-family:italic;
+  background-color:rgb(152, 248, 251);
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  no-repeat;
+  background-size:cover;
+  background-position:center;
+  
+}
+
+.main {
+  //background-color:yellow;
+  border-radius:20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 400px;
+  transition:none;
+  
+
+
+  
+}
+
+.main h2 {
+  text-align: center;
+  font-style: italic;
+  font-size:50%
+  color: #0fbded;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: blue;
+  font-weight: bold;
+  font-style:italic;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  
+}
+
+button[type="submit"] {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0be2f6;
+  color: black;
+  cursor: pointer;
+  width: 40%;
+  font-size: 20px;
+  cursor:pointer;
+  font-style:italic;
+   margin-right:10px;
+}
+button[type="reset"] {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0be2f6;
+  color: black;
+  cursor: pointer;
+  width: 40%;
+  font-size: 20px;
+  cursor:pointer;
+  font-style:italic;
+  margin-left:60px;
+main:hover {
+  background-color: red;
+}
+
